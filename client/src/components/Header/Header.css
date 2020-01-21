@@ -1,0 +1,65 @@
+.header {
+    height: auto;
+    background-color: #1b1464;
+    text-align: center !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-logo {
+    padding-top: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sports-head {
+    color: white;
+}
+
+.dot-head {
+    color: #29abe2;
+}
+
+.money-head {
+    color: white;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-weight: 500;
+    color: white !important;
+    border-right: 1px solid #29abe2 !important;
+}
+
+.nav-link:hover {
+    background-color: #f0f0f0;
+    border-right: none !important;
+    color: #1b1464 !important;
+}
+
+#homeLinkHead {
+    border-left: 1px solid #29abe2;
+}
+
+#homeLinkHead:hover {
+    border-left: none !important;
+}
+
+.dropdown-menu-odds {
+    background-color: #f0f0f0 !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #1b1464;
+}
+
+.dropdown-item {
+    color: #1b1464 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #f0f0f0 !important;
+    color: #1b1464 !important;
+}

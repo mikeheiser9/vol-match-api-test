@@ -1,0 +1,107 @@
+.mlb-container {
+    padding-bottom: 100px;
+}
+
+.grid-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.league-title {
+    min-width: 100%;
+    width: 100%;
+}
+
+.league-row {
+    border: 1px solid black;
+    background-color: #27abe2;
+    color: white;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.league-logo {
+    max-width: 100px;
+    width: 100px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.headers-row th {
+    padding: 2px;
+    vertical-align: middle !important;
+}
+
+.book-headers {
+    padding: 0px !important;
+}
+
+.bookie-logos {
+    max-width: 80px;
+    height: auto;
+}
+
+.loader-cont {
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+.loader {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+.marker {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.mlbRefresh, .mlbRefresh img {
+    float: right;
+    max-width: 40px;
+    width: 40px;
+    border-radius: 50%;
+    height: auto;
+    margin-top: 7px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.mlbRefresh:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+
+
+  .oddSelect-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    align-content: left;
+    text-align: left;
+}
+
+.selector-dropdown {
+    width: 130px;
+    text-align: center !important;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ffff;
+    color: #1b1464;
+    float: right;
+}
+
+#mlbSelectDD {
+    margin-top: -10px;
+}

@@ -1,0 +1,102 @@
+.lander-container {
+    height: 100%;
+    width: 100%;
+    background: url('https://louiediamond.com/wp-content/uploads/2019/03/Louie-Diamond-Website-Hero-Vegas.png');
+    background-position: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+.lander-container::after {
+    content: "";
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+    z-index: -1;
+}
+
+.text-container {
+    min-width: 100%;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    margin-top: 50px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.txt-column {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+}
+
+.txt-column ul {
+    list-style: none !important;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.txt-column ul li {
+    margin-top: 35px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.video-container {
+    min-width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    min-height: 100%;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.video-container iframe {
+    height: 315px;
+    width: 560px;
+}
+
+@media (max-width: 760px) {
+    .video-container iframe {
+        width: 310px;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .video-container iframe {
+        width: 360px;
+        height: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .video-container iframe {
+        width: 300px;
+        height: auto;
+    }
+}
